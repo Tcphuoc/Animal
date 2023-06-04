@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="icon_actionbar">35dp</dimen>
+    <dimen name="height_item_animal">140dp</dimen>
+    <dimen name="dimen_item_animal">100dp</dimen>
+    <dimen name="ic_love">30dp</dimen>
+    <dimen name="height_bg">200dp</dimen>
+    <dimen name="ic_love_detail">50dp</dimen>
+    <dimen name="width_item_menu">140dp</dimen>
+    <dimen name="height_item_menu">120dp</dimen>
+</resources>

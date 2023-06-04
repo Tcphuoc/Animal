@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/app_name"
+        android:textAllCaps="true"
+        android:textColor="@color/title"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <TableRow
+        android:id="@+id/item_birds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/iv_birds"
+            android:layout_width="@dimen/width_item_menu"
+            android:layout_height="@dimen/height_item_menu"
+            android:contentDescription="@string/img"
+            app:srcCompat="@drawable/bg_birds" />
+
+        <TextView
+            android:id="@+id/tv_birds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/topic_bird"
+            android:textColor="@color/title"
+            android:textSize="24sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/item_mammals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/iv_mammals"
+            android:layout_width="@dimen/width_item_menu"
+            android:layout_height="@dimen/height_item_menu"
+            android:contentDescription="@string/img"
+            app:srcCompat="@drawable/bg_mammals" />
+
+        <TextView
+            android:id="@+id/tv_mammals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/topic_mammal"
+            android:textColor="@color/title"
+            android:textSize="24sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/item_seas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/iv_seas"
+            android:layout_width="@dimen/width_item_menu"
+            android:layout_height="@dimen/height_item_menu"
+            android:contentDescription="@string/img"
+            app:srcCompat="@drawable/bg_seas" />
+
+        <TextView
+            android:id="@+id/tv_seas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/topic_sea"
+            android:textColor="@color/title"
+            android:textSize="24sp" />
+    </TableRow>
+
+
+</LinearLayout>

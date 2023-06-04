@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Animal Cute</string>
+    <string name="topic_bird">Birds</string>
+    <string name="topic_mammal">Mammals</string>
+    <string name="topic_sea">Seas</string>
+    <string name="img">Image</string>
+
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
